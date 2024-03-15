@@ -2,16 +2,18 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TransformLab"
-        mc:Ignorable="d"
-        Title="MainWindow">
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow"
+        mc:Ignorable="d">
     <StackPanel>
-        <Button Content="Hello World" FontSize="100" Click="ButtonBase_OnClick">
+        <Button Click="ButtonBase_OnClick"
+                Content="Hello World"
+                FontSize="100">
             <Button.RenderTransform>
-                <ScaleTransform ScaleY="-5"></ScaleTransform>
+                <ScaleTransform ScaleY="-5" />
             </Button.RenderTransform>
         </Button>
-        <Button Content="JHKHJKJ"></Button>
+        <Button Content="JHKHJKJ" />
     </StackPanel>
 </Window>
