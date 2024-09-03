@@ -19,6 +19,7 @@ namespace PrismCommandLab
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new MainWindowViewModel();
         }
     }
 }

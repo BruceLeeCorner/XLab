@@ -9,6 +9,16 @@ namespace PrismCommandLab
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+
+            Application.Current.Dispatcher.UnhandledException += (sender, args) =>
+            {
+                MessageBox.Show(args.Exception.ToString());
+                args.Handled = true;
+            };
+        }
     }
 
 }
