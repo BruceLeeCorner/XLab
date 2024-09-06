@@ -1,13 +1,36 @@
-﻿<Window x:Class="PrismCommandLab.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PrismCommandLab"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+﻿<Window
+    x:Class="PrismCommandLab.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:local="clr-namespace:PrismCommandLab"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:prism="http://prismlibrary.com/"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
     <StackPanel>
-        <Button Width="200" Height="30" Command="{Binding DownloadCommand}"></Button>
-        <Button Content="DownloadCanExecute" Margin="10" Command="{Binding WhichUICanExecuteOnComamnd}"></Button>
+        <Button
+            Width="200"
+            Height="30"
+            Command="{Binding DownloadCommand}" />
+        <Button
+            Margin="10"
+            Command="{Binding WhichUICanExecuteOnComamnd}"
+            Content="DownloadCanExecute" />
+        <Button Content="路由事件转命令">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="Click">
+                    <prism:InvokeCommandAction CommandParameter="" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </Button>
+
+        <Button Command="{Binding ClickCommand}" CommandParameter="{Binding}" />
+        <MenuItem Command="{Binding ClickCommand}" CommandParameter="{Binding}" />
+
+
     </StackPanel>
 </Window>

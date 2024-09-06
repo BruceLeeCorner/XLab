@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using CommunityToolkit.Mvvm.Input;
 
 namespace PrismCommandLab
 {
@@ -16,6 +17,10 @@ namespace PrismCommandLab
         public MainWindowViewModel()
         {
             DownloadCommand = new AsyncDelegateCommand(Download, DownloadCanExecute);
+
+
+
+            ICommand relayCommand = new AsyncRelayCommand();
 
             //Task.Run(() =>
             //{

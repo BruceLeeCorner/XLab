@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaliburnLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d21adbc323d63e770a65d6fd9fa332eb00eea0b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e1d61522a9240072e98dff5a3ddd3e65e10c170")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaliburnLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaliburnLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
