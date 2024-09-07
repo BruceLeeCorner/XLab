@@ -978,19 +978,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\remotearn\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitRepos\\XLab\\XLab\\CaliburnLab\\CaliburnLab.csproj",
+      "projectUniqueName": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\CaliburnLab.csproj",
       "projectName": "CaliburnLab",
-      "projectPath": "D:\\GitRepos\\XLab\\XLab\\CaliburnLab\\CaliburnLab.csproj",
-      "packagesPath": "C:\\Users\\remotearn\\.nuget\\packages\\",
-      "outputPath": "D:\\GitRepos\\XLab\\XLab\\CaliburnLab\\obj\\",
+      "projectPath": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\CaliburnLab.csproj",
+      "packagesPath": "C:\\Users\\Bruce\\.nuget\\packages\\",
+      "outputPath": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\remotearn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruce\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

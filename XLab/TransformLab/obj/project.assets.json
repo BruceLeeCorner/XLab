@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\remotearn\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
+      "projectUniqueName": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
       "projectName": "TransformLab",
-      "projectPath": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
-      "packagesPath": "C:\\Users\\remotearn\\.nuget\\packages\\",
-      "outputPath": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\obj\\",
+      "projectPath": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
+      "packagesPath": "C:\\Users\\Bruce\\.nuget\\packages\\",
+      "outputPath": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\remotearn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruce\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

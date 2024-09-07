@@ -10,26 +10,39 @@ using CommunityToolkit.Mvvm.Input;
 
 namespace PrismCommandLab
 {
-    internal class MainWindowViewModel
+    public class MainWindowViewModel
     {
+        public ICommand SaveCmd { get; private set; }
+
+        private bool SaveCanExecute() => true;
+
+        private void SaveExecute()
+        {
+            Save();
+        }
+
+        private void Save()
+        {
+            
+        }
+
+
         public AsyncDelegateCommand DownloadCommand { get; }
+
 
         public MainWindowViewModel()
         {
+
+            AssignCmds();
+
+            void AssignCmds()
+            {
+                SaveCmd = new RelayCommand(SaveExecute, SaveCanExecute);
+            }
+
+
             DownloadCommand = new AsyncDelegateCommand(Download, DownloadCanExecute);
 
-
-
-            ICommand relayCommand = new AsyncRelayCommand();
-
-            //Task.Run(() =>
-            //{
-            //    while (true)
-            //    {
-            //        Thread.Sleep(1000);
-            //        DownloadCommand.RaiseCanExecuteChanged();
-            //    }
-            //});
         }
 
         public async Task Download()
