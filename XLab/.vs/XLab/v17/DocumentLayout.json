@@ -122,15 +122,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "CaliburnLab",
+              "Title": "CaliburnLab.csproj",
               "DocumentMoniker": "D:\\GitRepos\\XLab\\XLab\\CaliburnLab\\CaliburnLab.csproj",
               "RelativeDocumentMoniker": "CaliburnLab\\CaliburnLab.csproj",
               "ToolTip": "D:\\GitRepos\\XLab\\XLab\\CaliburnLab\\CaliburnLab.csproj",
               "RelativeToolTip": "CaliburnLab\\CaliburnLab.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-09T09:47:39.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T09:47:39.132Z"
             },
             {
               "$type": "Document",
@@ -141,8 +140,7 @@
               "ToolTip": "D:\\GitRepos\\XLab\\XLab\\CaliburnLab\\MainWindow.xaml",
               "RelativeToolTip": "CaliburnLab\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-12T05:50:30.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:50:30.615Z"
             },
             {
               "$type": "Document",
@@ -153,8 +151,7 @@
               "ToolTip": "D:\\GitRepos\\XLab\\XLab\\PrismCommandLab\\App.xaml",
               "RelativeToolTip": "PrismCommandLab\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-03T03:01:16.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T03:01:16.689Z"
             },
             {
               "$type": "Document",
@@ -166,8 +163,7 @@
               "RelativeToolTip": "\u968F\u4FBFConsole\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T03:24:54.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T03:24:54.055Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "PrismCommandLab\\MainWindowViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T02:33:32.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T02:33:32.189Z"
             },
             {
               "$type": "Document",
@@ -191,8 +186,7 @@
               "ToolTip": "D:\\GitRepos\\XLab\\XLab\\PrismCommandLab\\MainWindow.xaml",
               "RelativeToolTip": "PrismCommandLab\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-02T01:46:26.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T01:46:26.747Z"
             },
             {
               "$type": "Document",
@@ -204,8 +198,7 @@
               "RelativeToolTip": "PrismCommandLab\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T07:54:42.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T07:54:42.094Z"
             },
             {
               "$type": "Document",
@@ -217,8 +210,7 @@
               "RelativeToolTip": "PrismCommandLab\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T01:46:26.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T01:46:26.194Z"
             },
             {
               "$type": "Document",
@@ -230,8 +222,7 @@
               "RelativeToolTip": "CaliburnLab\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T05:50:28.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:50:28.597Z"
             },
             {
               "$type": "Document",
@@ -264,8 +255,7 @@
               "ToolTip": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\MainWindow.xaml",
               "RelativeToolTip": "TransformLab\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T04:44:23.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T04:44:23.01Z"
             },
             {
               "$type": "Document",
@@ -277,8 +267,7 @@
               "RelativeToolTip": "TransformLab\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAIAxwBkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T04:44:22.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T04:44:22.828Z"
             },
             {
               "$type": "Document",
@@ -290,8 +279,7 @@
               "RelativeToolTip": "AsyncVoid\u5F02\u5E38\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T08:40:36.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T08:40:36.712Z"
             },
             {
               "$type": "Document",
@@ -303,8 +291,7 @@
               "RelativeToolTip": "CaliburnLab\\MainViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T05:53:43.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:53:43.278Z"
             },
             {
               "$type": "Document",
@@ -315,8 +302,7 @@
               "ToolTip": "D:\\GitRepos\\XLab\\XLab\\CaliburnLab\\App.xaml",
               "RelativeToolTip": "CaliburnLab\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-12T05:52:55.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:52:55.231Z"
             },
             {
               "$type": "Document",
@@ -328,8 +314,7 @@
               "RelativeToolTip": "CaliburnLab\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T05:52:52.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:52:52.102Z"
             }
           ]
         }
