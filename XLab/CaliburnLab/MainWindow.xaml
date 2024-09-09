@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CaliburnLab"
         mc:Ignorable="d"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:cal="http://caliburnmicro.com"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel>
+            <TextBox Width="200" Height="30" Name="TextBox">
+            </TextBox>
+            <Button Content="Save" IsEnabled="True">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <cal:ActionMessage MethodName="Save">
+                            <cal:Parameter Value="{Binding ElementName=TextBox,Path=Text}"></cal:Parameter>
+                        </cal:ActionMessage>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>
