@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\GithubRepos\\XLab\\XLab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|solutionrelative:prismcommandlab\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\mainviewmodel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|solutionrelative:prismcommandlab\\mainviewmodel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|solutionrelative:prismcommandlab\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\delegatecommandex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|solutionrelative:prismcommandlab\\delegatecommandex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|solutionrelative:prismcommandlab\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|solutionrelative:prismcommandlab\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}|AsyncVoid\u5F02\u5E38\\AsyncVoid\u5F02\u5E38.csproj|d:\\githubrepos\\xlab\\xlab\\asyncvoid\u5F02\u5E38\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}|AsyncVoid\u5F02\u5E38\\AsyncVoid\u5F02\u5E38.csproj|solutionrelative:asyncvoid\u5F02\u5E38\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|solutionrelative:prismcommandlab\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}|AsyncVoid\u5F02\u5E38\\AsyncVoid\u5F02\u5E38.csproj|d:\\githubrepos\\xlab\\xlab\\asyncvoid\u5F02\u5E38\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}|AsyncVoid\u5F02\u5E38\\AsyncVoid\u5F02\u5E38.csproj|solutionrelative:asyncvoid\u5F02\u5E38\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}|PrismCommandLab\\PrismCommandLab.csproj|d:\\githubrepos\\xlab\\xlab\\prismcommandlab\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -66,24 +74,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DelegateCommandEx.cs",
+              "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\DelegateCommandEx.cs",
+              "RelativeDocumentMoniker": "PrismCommandLab\\DelegateCommandEx.cs",
+              "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\DelegateCommandEx.cs",
+              "RelativeToolTip": "PrismCommandLab\\DelegateCommandEx.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T16:43:48.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainViewModel2.cs",
+              "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainViewModel2.cs",
+              "RelativeDocumentMoniker": "PrismCommandLab\\MainViewModel2.cs",
+              "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainViewModel2.cs",
+              "RelativeToolTip": "PrismCommandLab\\MainViewModel2.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:57:07.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "PrismCommandLab\\MainWindowViewModel.cs",
               "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainWindowViewModel.cs",
               "RelativeToolTip": "PrismCommandLab\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAkwBAAAAAVAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowHUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T02:33:32.189Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PrismCommandLab\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PrismCommandLab\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T01:46:26.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainWindow.xaml",
               "RelativeDocumentMoniker": "PrismCommandLab\\MainWindow.xaml",
@@ -95,20 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\App.xaml.cs",
               "RelativeDocumentMoniker": "PrismCommandLab\\App.xaml.cs",
               "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\App.xaml.cs",
               "RelativeToolTip": "PrismCommandLab\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T07:54:42.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\App.xaml",
               "RelativeDocumentMoniker": "PrismCommandLab\\App.xaml",
@@ -120,20 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "PrismCommandLab\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\PrismCommandLab\\MainWindow.xaml.cs",
-              "RelativeToolTip": "PrismCommandLab\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T01:46:26.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\\u968F\u4FBFConsole\\Program.cs",
               "RelativeDocumentMoniker": "\u968F\u4FBFConsole\\Program.cs",
@@ -141,12 +175,11 @@
               "RelativeToolTip": "\u968F\u4FBFConsole\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-02T03:24:54.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T03:24:54.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\AsyncVoid\u5F02\u5E38\\Program.cs",
               "RelativeDocumentMoniker": "AsyncVoid\u5F02\u5E38\\Program.cs",
@@ -154,24 +187,22 @@
               "RelativeToolTip": "AsyncVoid\u5F02\u5E38\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T08:40:36.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T08:40:36.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TransformLab\\MainWindow.xaml",
               "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\MainWindow.xaml",
               "RelativeToolTip": "TransformLab\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-13T04:44:23.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T04:44:23.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "TransformLab\\MainWindow.xaml.cs",
@@ -179,12 +210,11 @@
               "RelativeToolTip": "TransformLab\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAD4vxkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T04:44:22.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T04:44:22.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\MainViewModel.cs",
               "RelativeDocumentMoniker": "CaliburnLab\\MainViewModel.cs",
@@ -192,24 +222,22 @@
               "RelativeToolTip": "CaliburnLab\\MainViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T05:53:43.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:53:43.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\App.xaml",
               "RelativeDocumentMoniker": "CaliburnLab\\App.xaml",
               "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\App.xaml",
               "RelativeToolTip": "CaliburnLab\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-12T05:52:55.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:52:55.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\App.xaml.cs",
               "RelativeDocumentMoniker": "CaliburnLab\\App.xaml.cs",
@@ -217,24 +245,22 @@
               "RelativeToolTip": "CaliburnLab\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T05:52:52.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:52:52.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\MainWindow.xaml",
               "RelativeDocumentMoniker": "CaliburnLab\\MainWindow.xaml",
               "ToolTip": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\MainWindow.xaml",
               "RelativeToolTip": "CaliburnLab\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-12T05:50:30.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:50:30.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\GithubRepos\\XLab\\XLab\\CaliburnLab\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "CaliburnLab\\MainWindow.xaml.cs",
@@ -242,8 +268,7 @@
               "RelativeToolTip": "CaliburnLab\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T05:50:28.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T05:50:28.597Z"
             }
           ]
         }
