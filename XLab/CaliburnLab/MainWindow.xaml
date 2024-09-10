@@ -5,22 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CaliburnLab"
         mc:Ignorable="d"
+        Name="self"
         xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
         xmlns:cal="http://caliburnmicro.com"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <StackPanel>
-            <TextBox Width="200" Height="30" Name="TextBox">
-            </TextBox>
-            <Button Content="Save" IsEnabled="True">
-                <i:Interaction.Triggers>
-                    <i:EventTrigger EventName="Click">
-                        <cal:ActionMessage MethodName="Save">
-                            <cal:Parameter Value="{Binding ElementName=TextBox,Path=Text}"></cal:Parameter>
-                        </cal:ActionMessage>
-                    </i:EventTrigger>
-                </i:Interaction.Triggers>
-            </Button>
+        <StackPanel Margin="0,20,0,0">
+            <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Persons}">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Binding="{Binding Gender, Mode=TwoWay}" />
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Delete" IsEnabled="True">
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="Click">
+                                            <cal:ActionMessage cal:Action.TargetWithoutContext="{Binding Source={x:Reference Name=self}, Path=DataContext}" MethodName="Delete">
+                                               
+                                            </cal:ActionMessage>
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </Button>
+                            </DataTemplate>
+
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
         </StackPanel>
     </Grid>
 </Window>

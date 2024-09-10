@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransformLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+666399ec858a25153dd1b1a5f491098543f35420")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8c2a9aa522e9ce096a24407cd495577e31fbea6")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransformLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransformLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

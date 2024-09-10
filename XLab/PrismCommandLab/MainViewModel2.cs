@@ -10,7 +10,7 @@ public class MainViewModel2 : BindableBase
     {
         AssignCommands();
 
-        //DownloadExecutionResultNotifier.CommandExecutionResultChanged += DownloadExecutionResultNotifierOnExecutionResultChanged;
+        //DownloadActionStatusNotifier.CommandExecutionResultChanged += DownloadExecutionResultNotifierOnExecutionResultChanged;
     }
 
     public string Data
@@ -26,7 +26,7 @@ public class MainViewModel2 : BindableBase
 
     public AsyncDelegateCommand DownloadCommand { get; private set; }
 
-    public ExecutionResultNotifier DownloadExecutionResultNotifier { get; private set; }
+    public ActionStatusNotifier DownloadActionStatusNotifier { get; private set; }
 
     private void AssignCommands()
     {
@@ -39,24 +39,24 @@ public class MainViewModel2 : BindableBase
         };
 
 
-        DownloadExecutionResultNotifier = new ExecutionResultNotifier();
+        DownloadActionStatusNotifier = new ActionStatusNotifier();
         DownloadCommand = new AsyncDelegateCommand(DownloadExecute, DownloadCanExecute)
             .CancelAfter(TimeSpan.FromSeconds(5))
             .Catch<TaskCanceledException>(ex =>
-                DownloadExecutionResultNotifier.SetCanceled(2000)
+                DownloadActionStatusNotifier.SetCanceled(2000)
             )
             .Catch(ex =>
-                DownloadExecutionResultNotifier.SetFaulted(2000));
+                DownloadActionStatusNotifier.SetFaulted(2000));
     }
 
     private bool DownloadCanExecute()
     {
-        return DownloadExecutionResultNotifier.ExecutionResult == ExecutionResult.WaitingToRun;
+        return DownloadActionStatusNotifier.ActionStatus == ActionStatus.WaitingToRun;
     }
 
-    //private void DownloadExecutionResultNotifierOnExecutionResultChanged(ExecutionResult obj)
+    //private void DownloadExecutionResultNotifierOnExecutionResultChanged(ActionStatus obj)
     //{
-    //    if (obj == ExecutionResult.RanToCompletion || obj == ExecutionResult.Faulted)
+    //    if (obj == ActionStatus.RanToCompletion || obj == ActionStatus.Faulted)
     //    {
     //        EventAggregator eventAggregator = new EventAggregator();
     //        eventAggregator.GetEvent<MyClass>().Publish();
@@ -83,6 +83,6 @@ public class MainViewModel2 : BindableBase
             throw new ArgumentOutOfRangeException();
         }
 
-        DownloadExecutionResultNotifier.SetRanToCompletion();
+        DownloadActionStatusNotifier.SetRanToCompletion();
     }
 }

@@ -22,12 +22,12 @@
 
         </StackPanel.Resources>
         <StackPanel>
-            <TextBlock Text="{Binding DownloadExecutionResultNotifier.ExecutionResult, Mode=OneWay}" />
+            <TextBlock Text="{Binding DownloadActionStatusNotifier.ActionStatus, Mode=OneWay}" />
             <Button Command="{Binding DownloadCommand}" Content="Save" />
             <Ellipse
                 Width="30"
                 Height="30"
-                Fill="{Binding DownloadExecutionResultNotifier.ExecutionResult, Converter={StaticResource CommandExecutionResult2Brush}}" />
+                Fill="{Binding DownloadActionStatusNotifier.ActionStatus, Converter={StaticResource CommandExecutionResult2Brush}}" />
         </StackPanel>
 
 

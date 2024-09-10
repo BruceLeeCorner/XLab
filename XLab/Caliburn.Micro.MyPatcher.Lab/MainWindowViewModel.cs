@@ -7,8 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using Caliburn.Micro;
+using static System.Net.Mime.MediaTypeNames;
+using Action = System.Action;
 
-namespace CaliburnLab
+namespace Caliburn.Micro.MyPatcher.Lab
 {
     public class MainWindowViewModel : BindableBase
     {
@@ -40,7 +42,6 @@ namespace CaliburnLab
         };
 
         #region App Task
-
         /// <summary>
         /// Action执行状态
         /// </summary>
@@ -119,15 +120,14 @@ namespace CaliburnLab
             CanDeleteProperty = g;
         }
 
-        public async void Delete()
+        public async void Delete(bool gender)
         {
             ;
         }
-
         #endregion
     }
 
-    public class Person : BindableBase
+    public class Person:BindableBase
     {
         private bool _gender;
 

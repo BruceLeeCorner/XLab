@@ -1,5 +1,4 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using System.ComponentModel;
 using System.Globalization;
 using System.IO;
 using System.Windows.Data;
@@ -7,15 +6,6 @@ using System.Windows.Media;
 
 namespace PrismCommandLab
 {
-    [Flags]
-    public enum ExecutionResult
-    {
-        WaitingToRun = 1,
-        RanToCompletion = 2,
-        Faulted = 4,
-        Canceled = 8
-    }
-
     public class Fanzhuan : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -33,13 +23,13 @@ namespace PrismCommandLab
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            var value2 = (ExecutionResult)value;
+            var value2 = (ActionStatus)value;
             return value2 switch
             {
-                ExecutionResult.WaitingToRun => Brushes.DarkGray,
-                ExecutionResult.Faulted => Brushes.Red,
-                ExecutionResult.Canceled => Brushes.Orange,
-                ExecutionResult.RanToCompletion => Brushes.LimeGreen,
+                ActionStatus.WaitingToRun => Brushes.DarkGray,
+                ActionStatus.Faulted => Brushes.Red,
+                ActionStatus.Canceled => Brushes.Orange,
+                ActionStatus.RanToCompletion => Brushes.LimeGreen,
                 _ => throw new ArgumentException()
             };
         }
@@ -47,73 +37,6 @@ namespace PrismCommandLab
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
-        }
-    }
-
-    public sealed class ExecutionResultNotifier : INotifyPropertyChanged
-    {
-        private ExecutionResult _executionResult;
-
-        public ExecutionResultNotifier()
-        {
-            ExecutionResult = ExecutionResult.WaitingToRun;
-        }
-
-        public event Action<ExecutionResult>? CommandExecutionResultChanged;
-
-        public event PropertyChangedEventHandler? PropertyChanged;
-
-        public ExecutionResult ExecutionResult
-        {
-            get => _executionResult;
-            private set
-            {
-                if (!EqualityComparer<ExecutionResult>.Default.Equals(_executionResult, value))
-                {
-                    _executionResult = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(ExecutionResult)));
-                    CommandExecutionResultChanged?.Invoke(value);
-                }
-            }
-        }
-
-        public void Reset()
-        {
-            ExecutionResult = ExecutionResult.WaitingToRun;
-        }
-
-        public void SetCanceled(int resetTimeout = Timeout.Infinite)
-        {
-            ExecutionResult = ExecutionResult.Canceled;
-            DelayReset(resetTimeout);
-        }
-
-        public void SetFaulted(int resetTimeout = Timeout.Infinite)
-        {
-            ExecutionResult = ExecutionResult.Faulted;
-            DelayReset(resetTimeout);
-        }
-
-        public void SetRanToCompletion(int resetTimeout = Timeout.Infinite)
-        {
-            ExecutionResult = ExecutionResult.RanToCompletion;
-            DelayReset(resetTimeout);
-        }
-
-        private async void DelayReset(int resetTimeout)
-        {
-            if (resetTimeout != Timeout.Infinite)
-            {
-                await Task.Delay(resetTimeout).ConfigureAwait(false);
-                try
-                {
-                    Reset();
-                }
-                catch
-                {
-                    // ignored
-                }
-            }
         }
     }
 

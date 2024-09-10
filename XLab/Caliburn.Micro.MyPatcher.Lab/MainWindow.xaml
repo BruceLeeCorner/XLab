@@ -1,0 +1,85 @@
+﻿<Window
+    x:Class="Caliburn.Micro.MyPatcher.Lab.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:cal="http://caliburnmicro.com"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:local="clr-namespace:Caliburn.Micro.MyPatcher.Lab"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Name="self"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    d:DataContext="{d:DesignInstance local:MainWindowViewModel}"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <local:ActionStatusConverter x:Key="ActionStatusConverter" />
+        <local:ActionStatus2BrushConverter x:Key="ActionStatus2BrushConverter" />
+    </Window.Resources>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel>
+            <TextBlock
+                Margin="10"
+                Background="Azure"
+                Text="{Binding SaveStatusNotifier.ActionStatus}" />
+            <Expander Header="Fill Profile">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Text="First Name: "
+                        TextAlignment="Center" />
+                    <TextBox
+                        Name="TextBoxFirstName"
+                        Width="200"
+                        Height="30"
+                        Margin="10" />
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Text="Last Name: "
+                        TextAlignment="Center" />
+                    <TextBox
+                        Width="200"
+                        Height="30"
+                        Margin="10"
+                        Text="{Binding LastName}" />
+                </StackPanel>
+            </Expander>
+            <Button
+                Width="200"
+                Height="30"
+                Margin="10"
+                Background="{Binding SaveStatusNotifier.ActionStatus, Converter={StaticResource ActionStatus2BrushConverter}}"
+                Content="{Binding SaveStatusNotifier.ActionStatus, Converter={StaticResource ActionStatusConverter}}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <cal:ActionMessage MethodName="Save" cal:Action.TargetWithoutContext="{Binding ElementName=self,Path=DataContext}">
+                            <cal:Parameter Value="{Binding ElementName=TextBoxFirstName, Path=Text}" />
+                        </cal:ActionMessage>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+
+            <StackPanel Margin="0,20,0,0">
+                <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding Persons}">
+                    <DataGrid.Columns>
+                        <DataGridCheckBoxColumn Binding="{Binding Gender, Mode=TwoWay}" />
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Content="Delete" IsEnabled="True" 
+                                            cal:Message.Attach="[Event Click]=[Action Delete($datacontext)]"
+                                            cal:Action.TargetWithoutContext="{Binding Path=DataContext, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=DataGrid}}">
+                                    </Button>
+                                </DataTemplate>
+
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
