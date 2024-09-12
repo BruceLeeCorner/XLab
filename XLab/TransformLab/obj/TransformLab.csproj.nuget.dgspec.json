@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {}
+    "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {}
   },
   "projects": {
-    "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {
+    "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
+        "projectUniqueName": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
         "projectName": "TransformLab",
-        "projectPath": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
-        "packagesPath": "C:\\Users\\Bruce\\.nuget\\packages\\",
-        "outputPath": "D:\\GithubRepos\\XLab\\XLab\\TransformLab\\obj\\",
+        "projectPath": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
+        "packagesPath": "C:\\Users\\remotearn\\.nuget\\packages\\",
+        "outputPath": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bruce\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\remotearn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

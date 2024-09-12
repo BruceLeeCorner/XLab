@@ -8,9 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace PrismCommandLab
+namespace 绑定附加属性
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -20,7 +19,11 @@ namespace PrismCommandLab
         public MainWindow()
         {
             InitializeComponent();
-            this.DataContext = new MainViewModel2();
+        }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            Grid.SetRow(DemoTextBlock,2);
         }
     }
 }

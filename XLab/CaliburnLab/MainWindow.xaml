@@ -21,7 +21,7 @@
                                     <i:Interaction.Triggers>
                                         <i:EventTrigger EventName="Click">
                                             <cal:ActionMessage cal:Action.TargetWithoutContext="{Binding Source={x:Reference Name=self}, Path=DataContext}" MethodName="Delete">
-                                               
+                                               <cal:Parameter Value="{Binding Gender}"></cal:Parameter>
                                             </cal:ActionMessage>
                                         </i:EventTrigger>
                                     </i:Interaction.Triggers>
