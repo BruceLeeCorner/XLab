@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caliburn", "Caliburn", "{774F96E7-FAC6-4037-B2EE-24ECD087A529}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaliburnLab", "CaliburnLab\CaliburnLab.csproj", "{6BBD3AE7-5508-418C-8710-F5C332187AD1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "画图", "画图", "{83EBCF81-8A6F-41E6-88E4-46431174BC0C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformLab", "TransformLab\TransformLab.csproj", "{DF0A8E84-2188-4D22-87DD-3A0C272745D9}"
@@ -17,10 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "随便Console", "随便Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncVoid异常", "AsyncVoid异常\AsyncVoid异常.csproj", "{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caliburn.Micro.MyPatcher.Lab", "Caliburn.Micro.MyPatcher.Lab\Caliburn.Micro.MyPatcher.Lab.csproj", "{664E0392-71E2-4562-A50D-10B4DF5240ED}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "绑定附加属性", "绑定附加属性\绑定附加属性.csproj", "{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpplusLab", "EpplusLab\EpplusLab.csproj", "{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}"
 EndProject
 Global
@@ -29,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6BBD3AE7-5508-418C-8710-F5C332187AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BBD3AE7-5508-418C-8710-F5C332187AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BBD3AE7-5508-418C-8710-F5C332187AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BBD3AE7-5508-418C-8710-F5C332187AD1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF0A8E84-2188-4D22-87DD-3A0C272745D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF0A8E84-2188-4D22-87DD-3A0C272745D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0A8E84-2188-4D22-87DD-3A0C272745D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,14 +37,6 @@ Global
 		{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}.Release|Any CPU.Build.0 = Release|Any CPU
-		{664E0392-71E2-4562-A50D-10B4DF5240ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{664E0392-71E2-4562-A50D-10B4DF5240ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{664E0392-71E2-4562-A50D-10B4DF5240ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{664E0392-71E2-4562-A50D-10B4DF5240ED}.Release|Any CPU.Build.0 = Release|Any CPU
-		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -66,10 +46,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{6BBD3AE7-5508-418C-8710-F5C332187AD1} = {774F96E7-FAC6-4037-B2EE-24ECD087A529}
 		{DF0A8E84-2188-4D22-87DD-3A0C272745D9} = {83EBCF81-8A6F-41E6-88E4-46431174BC0C}
-		{664E0392-71E2-4562-A50D-10B4DF5240ED} = {774F96E7-FAC6-4037-B2EE-24ECD087A529}
-		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0} = {774F96E7-FAC6-4037-B2EE-24ECD087A529}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD0BED36-4A5A-40F6-BA78-83965D26EF6B}

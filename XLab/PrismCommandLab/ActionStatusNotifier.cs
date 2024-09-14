@@ -1,14 +1,16 @@
 ﻿using System.ComponentModel;
 
-namespace PrismCommandLab;
+namespace Caliburn.Micro.MyPatcher.Lab;
 
 public sealed class ActionStatusNotifier : INotifyPropertyChanged
 {
+    #region MyRegion
     private ActionStatus _actionStatus;
+    private bool _canAction;
 
     public ActionStatusNotifier()
     {
-        ActionStatus = ActionStatus.WaitingToRun;
+        ActionStatus = ActionStatus.Todo;
     }
 
     public event Action<ActionStatus>? CommandExecutionResultChanged;
@@ -31,12 +33,12 @@ public sealed class ActionStatusNotifier : INotifyPropertyChanged
 
     public void Reset()
     {
-        ActionStatus = ActionStatus.WaitingToRun;
+        ActionStatus = ActionStatus.Todo;
     }
 
-    public void SetRunning()
+    public void SetDoing()
     {
-        ActionStatus = ActionStatus.Running;
+        ActionStatus = ActionStatus.Doing;
     }
 
     public void SetTimeout(int resetTimeout = Timeout.Infinite)
@@ -57,9 +59,9 @@ public sealed class ActionStatusNotifier : INotifyPropertyChanged
         DelayReset(resetTimeout);
     }
 
-    public void SetRanToCompletion(int resetTimeout = Timeout.Infinite)
+    public void SetDone(int resetTimeout = Timeout.Infinite)
     {
-        ActionStatus = ActionStatus.RanToCompletion;
+        ActionStatus = ActionStatus.Done;
         DelayReset(resetTimeout);
     }
 
@@ -78,4 +80,5 @@ public sealed class ActionStatusNotifier : INotifyPropertyChanged
             }
         }
     }
+    #endregion
 }

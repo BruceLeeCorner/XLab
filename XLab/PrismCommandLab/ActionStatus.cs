@@ -1,11 +1,11 @@
-﻿namespace PrismCommandLab;
+﻿namespace Caliburn.Micro.MyPatcher.Lab;
 
 [Flags]
 public enum ActionStatus
 {
-    WaitingToRun = 1,
-    Running = 2,
-    RanToCompletion = 4,
+    Todo = 1,
+    Doing = 2,
+    Done = 4,
     Faulted = 8,
     Canceled = 16,
     Timeout = 32
