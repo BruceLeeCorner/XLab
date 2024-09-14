@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncVoid异常", "AsyncVoi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Caliburn.Micro.MyPatcher.Lab", "Caliburn.Micro.MyPatcher.Lab\Caliburn.Micro.MyPatcher.Lab.csproj", "{664E0392-71E2-4562-A50D-10B4DF5240ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "绑定附加属性", "绑定附加属性\绑定附加属性.csproj", "{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "绑定附加属性", "绑定附加属性\绑定附加属性.csproj", "{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpplusLab", "EpplusLab\EpplusLab.csproj", "{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754B0AF3-1243-4F9D-A6F1-1D0C70B38BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
