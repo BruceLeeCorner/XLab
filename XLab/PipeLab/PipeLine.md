@@ -1,0 +1,1 @@
+﻿==FlowDirection== Speed是正数，从左往右流动，是负数，从右往左移动。如果发现流动方向反了，可以使用值转换器反转Speed的正负，但也可以反转FlowDirection属性进行调整流向，这种方式更简捷。FlowDirection决定控件的文本或子元素从左向右还是从右向左排布，它被定义在FrameworkElement中，几乎所有常用的WPF元素都支持此属性。

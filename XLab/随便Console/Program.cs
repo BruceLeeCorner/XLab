@@ -1,8 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Diagnostics;
 using System.Reflection;
+using System.Security.Principal;
 
 
+AdminRelauncher.RelaunchIfNotAdmin();
+Console.ReadLine();
 //Nullable<int> a = 1;
 
 //Console.WriteLine(a.GetType().Name);
@@ -84,4 +88,38 @@ internal class MyClass : ICommand1, ICommand2
 class G<T>
 {
 
+}
+
+
+public static class AdminRelauncher
+{
+    public static void RelaunchIfNotAdmin()
+    {
+        if (!Debugger.IsAttached && !RunningAsAdmin())
+        {
+            Console.WriteLine("Running as admin required!");
+            ProcessStartInfo proc = new ProcessStartInfo();
+            proc.UseShellExecute = true;
+            proc.WorkingDirectory = Environment.CurrentDirectory;
+            proc.FileName = Assembly.GetEntryAssembly().Location;
+            proc.Verb = "runas";
+            try
+            {
+                Process.Start(proc);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("This program must be run as an administrator! \n\n" + ex.ToString());
+            }
+            Environment.Exit(0);
+        }
+    }
+
+    private static bool RunningAsAdmin()
+    {
+        WindowsIdentity id = WindowsIdentity.GetCurrent();
+        WindowsPrincipal principal = new WindowsPrincipal(id);
+
+        return principal.IsInRole(WindowsBuiltInRole.Administrator);
+    }
 }

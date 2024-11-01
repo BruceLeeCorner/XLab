@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {}
+    "D:\\GitRepo\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {}
   },
   "projects": {
-    "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {
+    "D:\\GitRepo\\XLab\\XLab\\TransformLab\\TransformLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
+        "projectUniqueName": "D:\\GitRepo\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
         "projectName": "TransformLab",
-        "projectPath": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
+        "projectPath": "D:\\GitRepo\\XLab\\XLab\\TransformLab\\TransformLab.csproj",
         "packagesPath": "C:\\Users\\remotearn\\.nuget\\packages\\",
-        "outputPath": "D:\\GitRepos\\XLab\\XLab\\TransformLab\\obj\\",
+        "outputPath": "D:\\GitRepo\\XLab\\XLab\\TransformLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

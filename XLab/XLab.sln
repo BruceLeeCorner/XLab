@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "画图", "画图", "{83EBCF81-8A6F-41E6-88E4-46431174BC0C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransformLab", "TransformLab\TransformLab.csproj", "{DF0A8E84-2188-4D22-87DD-3A0C272745D9}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismCommandLab", "PrismCommandLab\PrismCommandLab.csproj", "{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "随便Console", "随便Console\随便Console.csproj", "{A1FE498F-3772-470C-9C96-09ABB9D7BB93}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncVoid异常", "AsyncVoid异常\AsyncVoid异常.csproj", "{B5B7FBD2-FC6E-4EA2-8234-D3D42A1B5908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpplusLab", "EpplusLab\EpplusLab.csproj", "{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EpplusLab", "EpplusLab\EpplusLab.csproj", "{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{678ACB18-403C-45D7-83C6-EB1C869D9A53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "闪屏", "闪屏\闪屏.csproj", "{7E1E36FA-809C-4D89-9EF4-CDE7DC244E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeLab", "PipeLab\PipeLab.csproj", "{DEA6B592-FE0C-4106-924F-DEE6571FF71B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF0A8E84-2188-4D22-87DD-3A0C272745D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF0A8E84-2188-4D22-87DD-3A0C272745D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF0A8E84-2188-4D22-87DD-3A0C272745D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF0A8E84-2188-4D22-87DD-3A0C272745D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0577DF12-A1FB-41EA-BE7A-658016E2B7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,12 +39,21 @@ Global
 		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4AD2EB0-7707-4E0B-9846-73599EE5A1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{678ACB18-403C-45D7-83C6-EB1C869D9A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{678ACB18-403C-45D7-83C6-EB1C869D9A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{678ACB18-403C-45D7-83C6-EB1C869D9A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{678ACB18-403C-45D7-83C6-EB1C869D9A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E1E36FA-809C-4D89-9EF4-CDE7DC244E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1E36FA-809C-4D89-9EF4-CDE7DC244E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1E36FA-809C-4D89-9EF4-CDE7DC244E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1E36FA-809C-4D89-9EF4-CDE7DC244E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA6B592-FE0C-4106-924F-DEE6571FF71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA6B592-FE0C-4106-924F-DEE6571FF71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA6B592-FE0C-4106-924F-DEE6571FF71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA6B592-FE0C-4106-924F-DEE6571FF71B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{DF0A8E84-2188-4D22-87DD-3A0C272745D9} = {83EBCF81-8A6F-41E6-88E4-46431174BC0C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD0BED36-4A5A-40F6-BA78-83965D26EF6B}

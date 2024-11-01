@@ -1,0 +1,80 @@
+﻿<Window
+    x:Class="闪屏.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+    xmlns:local="clr-namespace:闪屏"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Name="w"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Window.Resources>
+        <local:Bool2IntConverter x:Key="c" />
+        <Storyboard x:Key="sb" RepeatBehavior="Forever">
+            <DoubleAnimation
+                BeginTime="0:0:1"
+                By="0.1"
+                Storyboard.TargetName="grid"
+                Storyboard.TargetProperty="Opacity"
+                From="0"
+                To="1"
+                Duration="0:0:1" />
+        </Storyboard>
+    </Window.Resources>
+    <Grid>
+        <Grid
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Panel.ZIndex="{Binding Path=OutOfSpace, Converter={StaticResource c}}">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Name="grid" Background="Transparent">
+                <i:Interaction.Triggers>
+                    <i:DataTrigger Binding="{Binding Path=OutOfSpace}" Value="True">
+                        <i:DataTrigger.Actions>
+                            <!--<i:ControlStoryboardAction Storyboard="{StaticResource sb}" />-->
+                            <i:ControlStoryboardAction>
+                                <i:ControlStoryboardAction.Storyboard>
+                                    <Storyboard x:Name="sb" RepeatBehavior="Forever">
+                                        <DoubleAnimation
+                                            BeginTime="0:0:1"
+                                            By="0.1"
+                                            Storyboard.TargetName="grid"
+                                            Storyboard.TargetProperty="Opacity"
+                                            From="0"
+                                            To="1"
+                                            Duration="0:0:0.5" />
+                                    </Storyboard>
+                                </i:ControlStoryboardAction.Storyboard>
+                            </i:ControlStoryboardAction>
+                        </i:DataTrigger.Actions>
+                    </i:DataTrigger>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:CallMethodAction MethodName="Stop" TargetObject="{Binding ElementName=sb}" />
+                        <i:ChangePropertyAction
+                            PropertyName="OutOfSpace"
+                            TargetObject="{Binding RelativeSource={RelativeSource AncestorType=Window}, Path=DataContext}"
+                            Value="False" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <TextBlock
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontSize="40"
+                    Foreground="Red"
+                    Text="Out of Disk Space 磁盘空间不足，请立刻清理" />
+            </Grid>
+            <Button
+                Grid.Row="1"
+                Margin="0,0,20,0"
+                HorizontalAlignment="Right"
+                Content="OK" />
+        </Grid>
+        <Button Background="Gray" Content="BUTTON" />
+    </Grid>
+</Window>
